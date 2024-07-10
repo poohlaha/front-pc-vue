@@ -1,0 +1,14 @@
+# 前端路由, 需要按模块分
+[HOME] # 首页
+NAME = 'home'
+TITLE = ''
+URL = '/'
+
+[LOGIN]
+NAME = 'login'
+TITLE = '登录'
+URL = '/login'
+
+
+
+

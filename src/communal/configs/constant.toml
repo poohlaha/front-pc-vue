@@ -1,0 +1,23 @@
+[CONSTANT]
+REQUEST_TIMEOUT = 10000
+PAGE_SIZE = 10
+LANGUAGES = ['zh', 'en']
+SKINS = ['theme_orange', 'theme_blue']
+TOKEN_EXPIRED_CODE = '-30001100'
+
+# message
+ERROR_MESSAGE = '服务器开小差, 请稍候重试'
+TOKEN_EXPIRED_ERROR = '登录超时,请重新登录'
+TIMEOUT_MESSAGE = '服务器连接超时'
+LOADING = '数据加载中, 请稍候...'
+NO_DATA = '暂无数据'
+LOGIN_SUCCESS = '登录成功'
+LOGOUT_SUCCESS = '登出成功'
+
+[CONSTANT.REQUEST]
+DEFAULT_URL_FORMAT = 'JSON'
+DEFAULT_CONTENT_TYPE = 'application/json;charset=UTF-8'
+DEFAULT_FORM_URLENCODED = 'application/x-www-form-urlencoded;charset=UTF-8'
+X_REQUESTED_WITH = 'x-requested-with'
+DEFAULT_X_REQUESTED_WITH = 'XMLHttpRequest'
+CONTENT_TYPE_NAME = 'Content-Type'

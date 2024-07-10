@@ -1,0 +1,15 @@
+[SYSTEM]
+NEED_SIGN = false
+NEED_ENCRYPT = false
+TELPHONE_NUMBER = 95351 # 客服热线
+USER_TOKEN = 'BRDVwHXVXQ3XMJSXo3vJ49IxKDZYxNa1' # todo 更换
+TOKEN_NAME = 'tGuxxHQ56uSXo3vJ' # todo 更换
+LOCAL_TOKEN = 'tGuxxHQ56uEngLrGp894JKbe3LkX2cVN' # todo 更换
+OPEN_ID = '1bJm2xl02Ha42En6' # todo 更换
+
+[SYSTEM.SIGNATURE]
+CBCIV = 'poykrzGPHBph6wEs'
+PUBLIC_KEY = 'Mu1kXIbe2RXk3W0eXTp5panFhuojrJke'
+TRANSMIT_PARAM = 'encryptionData'
+SIGNATURE_KEY = 'JvKCetawI23SN4AL7kayJasUjaLWv6Gie5tbj6xNM3dZ1esDlrKa1yejqDIIY5Hq'
+
