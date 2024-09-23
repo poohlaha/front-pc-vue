@@ -34,7 +34,8 @@
     "vant": "2.12.54"
   },
   "devDependencies": {
-    "@bale-tools/mutate-service": "^2.2.4",
+    "@bale-tools/mutate-service": "^2.2.7",
+    "@bale-tools/mutate-minimize": "^1.0.6",
     "@bale-tools/mutate-version": "^2.1.6",
     "@bale-tools/utils": "^2.0.7",
     "babel-eslint": "^10.1.0",
