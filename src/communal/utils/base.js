@@ -5,7 +5,6 @@ import { Dialog, Toast } from 'vant'
 
 // 退出相关
 const EXIT = {
-
   /**
    * 退出登陆
    * @param text 提示文字
@@ -117,12 +116,11 @@ const PAGE_JUMP = {
     } else {
       window.location.replace(url)
     }
-  }
+  },
 }
 
 // 地址栏相关
 const ADDRESS = {
-
   /**
    * 根据 window.location.href 获取前缀和后缀 URL
    * @param url url地址，可以以https|http开头

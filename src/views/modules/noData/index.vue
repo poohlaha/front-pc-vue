@@ -15,14 +15,14 @@ export default {
     // 图片地址
     imageUrl: {
       type: String,
-      default: require('@assets/images/public/noData.png')
+      default: require('@assets/images/public/noData.png'),
     },
 
     // 文字
     text: {
       type: String,
-      default: ''
-    }
-  }
+      default: '',
+    },
+  },
 }
 </script>

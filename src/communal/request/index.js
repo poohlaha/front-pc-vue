@@ -84,7 +84,7 @@ export default class Request {
       data,
       responseType: config.responseType,
       baseURL: config.baseUrl || process.env.VUE_APP_API_ROOT,
-      headers: config.headers || {}
+      headers: config.headers || {},
     }
   }
 

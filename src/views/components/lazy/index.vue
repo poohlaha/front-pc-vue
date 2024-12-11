@@ -13,17 +13,17 @@ export default {
   props: {
     time: {
       type: Number,
-      default: 0
+      default: 0,
     },
     className: {
       type: String,
-      default: ''
-    }
+      default: '',
+    },
   },
 
   data() {
     return {
-      success: false
+      success: false,
     }
   },
 
@@ -36,7 +36,7 @@ export default {
       setTimeout(() => {
         this.success = true
       }, this.time)
-    }
-  }
+    },
+  },
 }
 </script>

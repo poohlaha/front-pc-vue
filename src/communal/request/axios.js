@@ -44,7 +44,7 @@ export function getResponseErrorMessage(data) {
 
   return {
     reason,
-    code: code || 500
+    code: code || 500,
   }
 }
 
@@ -85,7 +85,7 @@ export function fetchAll(requests = [], configs) {
             if (response.status !== 200) {
               errors.push({
                 code: 500,
-                message: CONSTANT.ERROR_MESSAGE
+                message: CONSTANT.ERROR_MESSAGE,
               })
               break
             }

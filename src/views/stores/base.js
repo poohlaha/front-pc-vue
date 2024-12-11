@@ -19,5 +19,5 @@ const sendBatch = (queue = []) => $http.all(queue)
 export default {
   post,
   get,
-  sendBatch
+  sendBatch,
 }

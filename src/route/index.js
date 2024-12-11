@@ -8,7 +8,7 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   mode: 'history',
   base: process.env.PROJECT_URL || '/',
-  routes
+  routes,
 })
 
 // 解决app路由模块无法加载的问题

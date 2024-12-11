@@ -14,14 +14,7 @@ import { CONSTANT } from '@configs/index'
  * @param isRefresh 是否上拉刷新或下拉刷新
  * @param isNeedPhone 是否需要手机号
  */
-const generateCommonConfig = ({
-    url = '',
-    data = {},
-    success,
-    fail,
-    methodType = 1,
-    isRefresh = false,
-  }) => {
+const generateCommonConfig = ({ url = '', data = {}, success, fail, methodType = 1, isRefresh = false }) => {
   const userInfo = USER.getUserInfo()
   let params = {
     url,
@@ -40,13 +33,8 @@ const generateCommonConfig = ({
 }
 
 // 发送 POST 请求, 参数见上
-const sendPost = ({
-  url = '',
-  data = {},
-  success,
-  fail,
-  isRefresh = false,
-}) => http.post(generateCommonConfig({ url, data, success, fail, isRefresh }))
+const sendPost = ({ url = '', data = {}, success, fail, isRefresh = false }) =>
+  http.post(generateCommonConfig({ url, data, success, fail, isRefresh }))
 
 // 发送 GET 请求, 参数见上
 const sendGet = ({ url = '', data = {}, success, fail, isRefresh = false }) => {

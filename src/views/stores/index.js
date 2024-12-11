@@ -20,7 +20,7 @@ const MODULES = (r => {
 Vue.use(Vuex)
 
 let store = new Vuex.Store({
-  modules: MODULES
+  modules: MODULES,
 })
 
 export default store

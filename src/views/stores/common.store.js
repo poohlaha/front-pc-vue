@@ -2,7 +2,7 @@ import { CONSTANT } from '@configs/index'
 
 const state = {
   language: CONSTANT.LANGUAGES[0], // 默认中文
-  skin: CONSTANT.SKINS[0] // 默认orange
+  skin: CONSTANT.SKINS[0], // 默认orange
 }
 
 const mutations = {}
@@ -16,5 +16,5 @@ export default {
   state,
   mutations,
   actions,
-  getters
+  getters,
 }

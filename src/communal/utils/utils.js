@@ -218,7 +218,7 @@ const Utils = {
       dd: ('' + (date.getDate() + 100)).substr(1),
       HH: ('' + (date.getHours() + 100)).substr(1),
       mm: ('' + (date.getMinutes() + 100)).substr(1),
-      ss: ('' + (date.getSeconds() + 100)).substr(1)
+      ss: ('' + (date.getSeconds() + 100)).substr(1),
     }
     return format.replace(/(yyyy|MM?|dd?|HH?|ss?|mm?)/g, function () {
       return dict[arguments[0]]
@@ -580,7 +580,7 @@ const Utils = {
         console.error(e)
       }
     }
-  }
+  },
 }
 
 export default Utils

@@ -7,9 +7,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "home" */ '@views/pages/home/index.vue'),
     meta: {
       title: RouterUrls.HOME.TITLE,
-      keepAlive: true
-    }
-  } // 首页
+      keepAlive: true,
+    },
+  }, // 首页
 ]
 
 export default routes

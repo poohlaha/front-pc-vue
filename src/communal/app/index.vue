@@ -14,16 +14,16 @@ export default {
   name: 'App',
   computed: {
     ...Vuex.mapState({
-      skin: state => state.common.skin
-    })
+      skin: state => state.common.skin,
+    }),
   },
   data() {
     return {
-      keepAlive: false
+      keepAlive: false,
     }
   },
   watch: {
-    $route(to) {}
+    $route(to) {},
   },
   created() {
     this.$router.onReady(() => {
@@ -31,6 +31,6 @@ export default {
       console.log('keepAlive:', this.keepAlive)
     })
     document.body.classList.add(this.skin)
-  }
+  },
 }
 </script>
